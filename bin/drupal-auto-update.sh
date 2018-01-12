@@ -102,7 +102,7 @@ else
         # visual regression passed
         echo -e "\nVisual regression tests passed between the ${TERMINUS_ENV} multidev and live."
         php -f bin/slack_notify.php visual_same
-
+        exit 0
         # enable git mode on dev
         echo -e "\nEnabling git mode on the dev environment..."
         terminus connection:set $SITE_UUID.dev git
