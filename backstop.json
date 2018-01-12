@@ -9,8 +9,8 @@
   "scenarios": [
     {
       "label": "Homepage",
-      "url": "http://live-museo-de-arte-updates.pantheonsite.io/",
-      "referenceUrl": "https://update-dr-museo-de-arte-updates.pantheonsite.io/",
+      "url": "http://live-missiontix-beta.pantheonsite.io/",
+      "referenceUrl": "http://update-dr-missiontix-beta.pantheonsite.io/",
       "hideSelectors": [],
       "selectors": [
         "document"
