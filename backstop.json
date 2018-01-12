@@ -10,7 +10,7 @@
     {
       "label": "Homepage",
       "url": "http://live-missiontix-beta.pantheonsite.io/",
-      "referenceUrl": "http://update-dr-missiontix-beta.pantheonsite.io/",
+      "referenceUrl": "https://box-office-missiontix-beta.pantheonsite.io",
       "hideSelectors": [],
       "selectors": [
         "document"
@@ -18,7 +18,19 @@
       "readyEvent": null,
       "delay": 500,
       "misMatchThreshold" : 0.1
-    }
+    },
+    {
+      "label": "Contact us",
+      "url": "https://live-missiontix-beta.pantheonsite.io/contact",
+      "referenceUrl": "https://box-office-missiontix-beta.pantheonsite.io/contact",
+      "hideSelectors": [],
+      "selectors": [
+        "document"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1
+    },
   ],
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
